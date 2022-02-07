@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt 
 
-dataset = pd.read_csv('Wine.csv')
+dataset = pd.read_csv('file.csv')
 x = dataset.iloc[:,:-1].values
 y = dataset.iloc[:,-1].values
 ##incase dataset is already splited
